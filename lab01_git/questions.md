@@ -12,10 +12,14 @@
 # Homework Questions
 
 1.  What is the ``grep``command?
-    >   answer
+    >   es un comando que se usa para buscar un texto o un fichero que tenga coincidencia con una cadena de caracteres dada.
+    > ref: http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/
 
 2.  What is a *makefile*?
-    >   answer
+    >   Es un archivo especial que contiene comandos de la shell, que a su vez es  un programa que toma los comandos del teclado y se los da al sistema operativo. El Makefile crea y define el nombre de un archivo MAKE (o Makefile dependiendo del sistema). Mientras que en el directorio que contiene el archivo MAKE, que va a escribir y hacer que se va a ejecutar los comandos en el archivo MAKE.
+
+    >ref: http://www.sis.pitt.edu/mbsclass/tutorial/advanced/makefile/whatis.htm
+    > ref: http://linuxcommand.org/lts0010.php
 
 4.  What does the ``-prune`` option of ``find`` do? Give an example
     >   answer
