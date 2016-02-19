@@ -5,9 +5,14 @@
 
 2.  What is the output of the ``cal`` command?
 
-        multi
-        line
-        answer
+            Febrero 2016      
+do lu ma mi ju vi sá  
+    1  2  3  4  5  6  
+ 7  8  9 10 11 12 13  
+14 15 16 17 18 19 20  
+21 22 23 24 25 26 27  
+28 29                 
+               
 
 # Homework Questions
 
@@ -22,37 +27,45 @@
         >ref: http://linuxcommand.org/lts0010.php
 
 4.  What does the ``-prune`` option of ``find`` do? Give an example
-    >   answer
+    >  muestra todos los archivos que coinciden con los criterios especificados en el find.
 
 5.  Where is the ``grub.cfg``  file
-    >   answer
+    >   ./usr/share/doc/grub-common/examples/grub.cfg
+    >   ./boot/grub/grub.cfg
 
 6.  How many files with ``gnu`` in its name are in ``/usr/src``
-    >   answer
+    >   0
+        liee303@liee303:/usr/src$ ls
+        linux-headers-3.13.0-44          linux-headers-3.13.0-45          linux-headers-3.13.0-52          linux-headers-3.13.0-53
+        linux-headers-3.13.0-63          matlab linux-headers-3.13.0-44-generic  linux-headers-3.13.0-45-generic
+        linux-headers-3.13.0-52-generic  linux-headers-3.13.0-53-generic  linux-headers-3.13.0-63-generic
 
 7.  How many files contain the word ``gpl`` inside in ``/usr/src``
-    >   answer
+    >   0
 
 8.  What does the ``cut`` command do?
-    >   answer
+    >    es usado para el procesamiento de texto. se puede usar para extraer una porción de textode un archivo seleccionado la columna.
 
 9.  What does the ``wget`` command do?
-    >   answer
+    >   es una herramienta libre para descargas no interactivas  de archivos desde la web. Soporta HTTP, HTTPS y FTP protocolos.
 
 9.  What does the ``rsync`` command do?
-    >   answer
+    >    es el comando mas utilizado para copiar y sincronizar archivos y directorios remotamenteen sistemas Linux/Unix.
+    | ref: http://www.tecmint.com/rsync-local-remote-file-synchronization-commands/
 
 10.  What does the ``diff`` command do?
-    >   answer
+    >   analiza dos archivos e imprime las líneas que son diferentes. especificqmente imprime instrucciones para hacer los dos archivos iguales.
+    | ref: http://www.computerhope.com/unix/udiff.htm
 
 10.  What does the ``tail`` command do?
-    >   answer
+    >   muestra algunas de las últimas 10 líneas de un archivo. este comando es usado para verlos 'ipdates' de archivos muy grandes.
+    | ref: http://linoxide.com/linux-command/linux-tail-command/
 
 10.  What does the ``tail -f`` command do?
-    >   answer
-
+    >   si el nombre es especificado, el archivo con ese nombre será seguido, esto es independiente del descriptor del archivo.
+    
 10.  What does the ``link`` command do?
-    >   answer
+    >   es un archivo especial que sirve como una referencia de otro archivo o directorio.
 
 11.  How many users exist in the course server?
     >   answer
